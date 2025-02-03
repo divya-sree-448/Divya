@@ -1,0 +1,59 @@
+#include<stdio.h>
+int main(){
+int choice, num1,num2,result;
+  do{
+    printf("WELCOME_C_DIVYA_SREE\n\n");
+    printf("1.Select One for Addition\n");
+    printf("2.Select Two for Subtraction\n");
+    printf("3.Select Three for Multiplication\n");
+    printf("4.Select Four for Division\n");
+    printf("5.Select Five for Modulo\n");
+    printf("6.Exit\n");
+
+    printf("Select the number mentioned above to continue with the operation:");
+    scanf("%d",&choice);
+
+    if(choice >=1 && choice <=5){
+        printf("Enter the two numbers(Num1 and Num2):\n");
+        printf("Num1: ");
+        scanf("%d",&num1);
+        printf("Num2: ");
+        scanf("%d",&num2);
+
+        switch(choice){
+            case 1:
+                result=num1+num2;
+                printf("%d\n",result);
+                break;
+            case 2:
+                result=num1-num2;
+                printf("%d\n",result);
+                break;
+            case 3:
+                result=num1*num2;
+                printf("%d\n",result);
+                break;
+            case 4:
+                result=num1/num2;
+                printf("%d\n",result);
+                break;
+            case 5:
+                result=num1%num2;
+                printf("%d\n",result);
+                break;
+            default:
+                printf("Invalid choice!\n");
+
+           }
+       }
+        else if(choice==6){
+            printf("Exiting calculator\n");
+                break;
+        }
+        else{
+           printf("Invalid selection! please select a valid choice\n");
+           }
+  }
+           while(1);
+           return 0;
+}
