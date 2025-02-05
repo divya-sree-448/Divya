@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C DIVYASREE RESUME</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 24px;
+        }
+        .contact-info, .section-title {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .section-title {
+            font-weight: bold;
+            border-bottom: 2px solid #000;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+        .content {
+            margin: 15px 0;
+        }
+        .list-item {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DIVYASREE RESUME</h1>
+        <div class="contact-info">
+            <p>cdivyasree448@gmail.com | 8688768837 | TIRUPATI, ANDHRAPRADESH | </p>
+        </div>
+        <div class="content">
+            <p>Currently I am Undergraduate.Well spoken and cheerfull.Self Motivated Person.Independent worker with Excellent Communication and Organizational Skills.Comfortable Collaborating in Team Environments.</p>
+        </div>
+        
+        <div class="section-title">Education</div>
+        <div class="content">
+            <p><strong>SRI VENKATESHWARA COLLEGE OF ENGINEERING</strong><br>Student</p>
+            <ul class="list-item">
+                
+                <li> COMPUTER SCIENCE ENGINEERING</li>
+              <li>GPA: 9.28 / 10.0</li>
+                
+                <li>Clubs: Coding club,Music  club</li>
+            </ul>
+        </div>
+        
+        <div class="section-title">Achievements</div>
+        <div class="content">
+            <p><strong>Coding Club</strong><br>Participating member<br>2022-2026</p>
+            </ul>
+        </div>
+        
+        <div class="section-title">Additional Skills</div>
+        <div class="content">
+            <ul class="list-item">
+                <li>Basic knowledge of python</li>
+                <li>Basic knowledge of HTML</li>
+                <li>Basic knowledge of Java</li>
+                <li>Interest on Webdeveloping</li>
+            </ul>
+        </div>
+        
+        <div class="section-title">Certificates</div>
+        <div class="content">
+            <ul class="list-item">
+                <li>Basics of python</li>
+                <li>Basics of Html</li>
+                <li>GUVI AI Learnathon Certificate</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
